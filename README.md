@@ -9,6 +9,9 @@
 ### Install all the required packages using pip and the `requirements.txt` file:
 `pip install -r requirements.txt`
 
+### Download punkt for TruLens"
+`python download_punkt.py`
+
 ### Set up OpenAI API key
 `touch .env`
 
