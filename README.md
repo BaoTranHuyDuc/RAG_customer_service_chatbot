@@ -1,7 +1,7 @@
 # Installation
 
 ### Clone the repository:
-`git clone https://github.com/yourusername/your-repository.git`
+`git clone https://github.com/BaoTranHuyDuc/RAG_customer_service_chatbot.git`
 
 ### Navigate to the project directory:
 `cd your-repository`
