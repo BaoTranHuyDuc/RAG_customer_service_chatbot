@@ -9,6 +9,11 @@
 ### Install all the required packages using pip and the `requirements.txt` file:
 `pip install -r requirements.txt`
 
+### Set up OpenAI API key
+`touch .env`
+Paste your OpenAI key into this .env file:
+`OPENAI_API_KEY="sk-..."`
+
 ## Create vector store
 Use SQL to extract a csv of product descriptions from the company database.
 
@@ -23,6 +28,6 @@ Run `create-vectorstore.py`:
 In the terminal, run:
 `python -m streamlit run app.py`
 
-The streamlit app for that chat bot is at: `http://localhost:8501/`
+The streamlit app for that chat bot is at: http://localhost:8501/
 
-The streamlit app for the TruLens dashboard is at: `http://localhost:8502/`
+The streamlit app for the TruLens dashboard is at: http://localhost:8502/
