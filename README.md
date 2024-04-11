@@ -29,6 +29,8 @@ Run this file through the notebook `product_desc_cleaning.ipynb`
 Run `create-vectorstore.py`:
 `python create-vecstore.py`
 
+Note that this vector store current use the RecursiveTextSplitter to chunk text. I find that using Semantic Chunking (https://python.langchain.com/docs/modules/data_connection/document_transformers/semantic-chunker/) creates more semantically meaningful chunks but these chunks are larger and hence use more tokens.
+
 # Run the app
 In the terminal, run:
 `python -m streamlit run app.py`
