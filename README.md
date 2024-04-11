@@ -14,6 +14,8 @@ Use SQL to extract a csv of product descriptions from the company database.
 
 Name this file `product_desc\product.csv`
 
+Run this file through the notebook `product_desc_cleaning.ipynb`
+
 Run `create-vectorstore.py`:
 `python create-vecstore.py`
 
