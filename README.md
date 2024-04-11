@@ -36,6 +36,7 @@ In the terminal, run:
 `python -m streamlit run app.py`
 
 The streamlit app for that chat bot is at: http://localhost:8501/
+
 The streamlit app for the TruLens dashboard is at: http://localhost:8502/
 
 # Errors with the demo:
