@@ -1,0 +1,9 @@
+faiss_products/
+faiss_products_recursive/
+default.sqlite
+product_cleaned_removed.csv
+.env
+groundedness_bl.py
+prompt_bk.py
+__pycache__/
+.streamlit/
