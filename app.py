@@ -30,15 +30,12 @@ def load_llm():
         return llm
 
 def load_prompt():
-        prompt = """
-        Use following piece of context to answer the question. 
-        If you don't know the answer, just say you don't know. 
-
-        Context: {context}
-        Question: {question}
-        Answer: 
-
-        """
+        prompt = """ Bạn cần phải trả lời các câu hỏi bằng ngữ cảnh được cung cấp. KHÔNG được phép dùng thông tin khác người ngữ cảnh.
+        Bên dưới là ngữ cảnh và câu hỏi của người dùng.
+        ngữ cảnh = {context}
+        câu hỏi = {question}
+        Hãy trả lời bằng tiếng Việt. Nếu câu trả lời có chứa tiếng Việt không dấu, hãy thêm dấu vào để khiến nó thành tiếng Việt có dấu.
+         """
         prompt = ChatPromptTemplate.from_template(prompt)
         return prompt
 
