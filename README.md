@@ -1,4 +1,4 @@
-## Installation
+# Installation
 
 ### Clone the repository:
 `git clone https://github.com/yourusername/your-repository.git`
@@ -11,10 +11,12 @@
 
 ### Set up OpenAI API key
 `touch .env`
+
 Paste your OpenAI key into this .env file:
+
 `OPENAI_API_KEY="sk-..."`
 
-## Create vector store
+# Create vector store
 Use SQL to extract a csv of product descriptions from the company database.
 
 Name this file `product_desc\product.csv`
@@ -24,7 +26,7 @@ Run this file through the notebook `product_desc_cleaning.ipynb`
 Run `create-vectorstore.py`:
 `python create-vecstore.py`
 
-## Run the app
+# Run the app
 In the terminal, run:
 `python -m streamlit run app.py`
 
