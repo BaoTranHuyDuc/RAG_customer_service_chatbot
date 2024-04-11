@@ -37,4 +37,8 @@ In the terminal, run:
 
 The streamlit app for that chat bot is at: http://localhost:8501/
 
+# Errors with the demo:
+
+Currently, when you evaluate this demo with the TruLens dashboard, the groundedness measure is usually 0. I believe that this is because the LLM response and the context are in Vietnamese while the evaluating prompts are in English which makes it hard for the evaluating LLM to find information overlap between the response and the context. I believe that this can be fixed if we can change the TruLens prompts to Vietnamese.
+
 The streamlit app for the TruLens dashboard is at: http://localhost:8502/
