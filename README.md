@@ -4,7 +4,7 @@
 `git clone https://github.com/BaoTranHuyDuc/RAG_customer_service_chatbot.git`
 
 ### Navigate to the project directory:
-`cd your-repository`
+`cd RAG_customer_service_chatbot`
 
 ### Install all the required packages using pip and the `requirements.txt` file:
 `pip install -r requirements.txt`
